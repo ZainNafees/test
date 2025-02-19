@@ -9,7 +9,7 @@ import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
-  { path: "/login", element: <App /> },
+  { path: "/", element: <App /> },
   { path: "/Register", element: <Register /> },
   { path: "/Home", element: <Home /> },
 ]);
